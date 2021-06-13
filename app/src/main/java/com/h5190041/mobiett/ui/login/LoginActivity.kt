@@ -99,7 +99,7 @@ class LoginActivity : AppCompatActivity() {
         loginViewModel?.apply {
             loginLiveData?.observe(this@LoginActivity, Observer {
                 it.run {
-                   for (index in 0..it.size+Constants.EKLE) {
+                   for (index in Constants.DEGER_SIFIR..it.size+Constants.EKLE) {
                        if(index==size){
                            break
                        }
