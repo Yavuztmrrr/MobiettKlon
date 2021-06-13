@@ -10,7 +10,7 @@
 ## Clean Simple Architecture
 <p align="left">
   <img src="https://raw.githubusercontent.com/Yavuztmrrr/MobiettKlon/main/images/mvvm1png.png" height="400" />
-  <img src="https://github.com/Yavuztmrrr/MobiettKlon/blob/main/images/mvvm2.png" height="400" />
+  <img src="https://github.com/Yavuztmrrr/MobiettKlon/blob/main/images/mvvmDevam.png" height="400" />
 </p>
 
 
