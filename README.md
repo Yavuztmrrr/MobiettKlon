@@ -7,9 +7,7 @@
  İett'nin Mobil uygulaması olan Mobiett'nin klon uygulaması yapılması amaçlanmıştır.
 
 
-## Live Tracking Features
-
-&emsp;&emsp;<b>Live Coin Tracking</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>Live Input Tracking</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>Live Internet Tracking</b>
+## Live Mobiett Klon App
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/Yavuztmrrr/MobiettKlon/main/screens/projegif.gif" width="200"/>&emsp;&emsp;&emsp;
