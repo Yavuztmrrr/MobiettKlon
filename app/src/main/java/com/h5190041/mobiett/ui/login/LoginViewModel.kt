@@ -44,7 +44,7 @@ class LoginViewModel : ViewModel() {
                     }
 
                     ResourceStatus.ERROR -> {
-                        Log.e("ERROR", "${it.throwable}")
+                        Log.e(Constants.ERROR, "${it.throwable}")
                         error?.postValue(it.throwable!!)
                         loading?.postValue(false)
                     }
