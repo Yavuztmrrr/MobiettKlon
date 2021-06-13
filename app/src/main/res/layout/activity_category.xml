@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground_kategori"
+    android:orientation="vertical"
+    tools:context=".ui.category.CategoryActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="@dimen/categoryMobiettWidth"
+            android:layout_height="@dimen/categoryMobiettHeight"
+            android:layout_marginTop="@dimen/categoryMobiettMarginTop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mobiett" />
+
+        <SearchView
+            android:id="@+id/searchViewCategory"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/categorySearchHeight"
+            android:layout_marginStart="@dimen/categorySearchStart"
+            android:layout_marginTop="@dimen/categorySearchTop"
+            android:layout_marginEnd="@dimen/categorySearchMarginEnd"
+            android:background="@color/acikpempe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgLogo">
+
+        </SearchView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/categoryNestedMarginLeft"
+        android:layout_marginTop="@dimen/categoryNestedMarginTop"
+        android:layout_marginRight="@dimen/categoryNestedMarginRight">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvOtolar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/imgLogo"
+            tools:listitem="@layout/category_card_view" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">H5190041_Mobiett</string>
+    <string name="sifre">Şifre</string>
+    <string name="email">Email</string>
+    <string name="devam">Devam</string>
+    <string name="search">Search</string>
+    <string name="netKontrol">İnternet Kontrolü</string>
+    <string name="netYoktur">İnternet bağlantınız yoktur.Ayarlara gitmek istermisiniz?</string>
+    <string name="negativeButtonSplash">Çıkış</string>
+    <string name="positiveButtonSplash">İnterneti Aç</string>
+    <string name="negativeButton">İptal</string>
+    <string name="positiveButton">Çikiş</string>
+
+    <string name="cikisTitle">Çıkış</string>
+    <string name="cikisMessage">Çıkış Yapmak İstiyormusunuz?</string>
+    <string name="yon">Yön:</string>
+    <string name="degistir">değistir</string>
+    <string name="listeYukleniyor">Liste Yükleniyor...</string>
+    <string name="yanlistir">Email veya Parola yanliştir.</string>
+    <string name="tire"> - </string>
+
+
+
+
+    <string name="listeAzalan"> İsme Gore Azalan </string>
+    <string name="listeArtan">İsme Gore Artan</string>
+</resources>

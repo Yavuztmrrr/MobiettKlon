@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/acikpempe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"      />
+
+
+    <View
+        android:id="@+id/viewHr"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/loginViewHrHeight"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/viewWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/viewWhite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginViewWhite"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/imgLogo"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="@dimen/loginMobiettWidth"
+        android:layout_height="@dimen/loginMobiettHeight"
+        android:layout_marginTop="@dimen/loginMobiettMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mobiett" />
+
+    <TextView
+        android:id="@+id/txtSifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/loginTxtViewMarginStart"
+        android:layout_marginTop="@dimen/loginTxtViewMarginTop"
+        android:text="@string/sifre"
+        android:textColor="@color/black"
+        android:textSize="@dimen/loginTxtViewSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginEdtTextHeight"
+        android:layout_marginStart="@dimen/loginEdtTextMargin"
+        android:layout_marginTop="@dimen/loginEdtTextMarginTop"
+        android:layout_marginEnd="@dimen/loginEdtTextMargin"
+        android:background="@drawable/edit_text_login_valid"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/loginTxtViewMarginStart"
+        android:layout_marginTop="@dimen/loginTxtViewMarginTopSifre"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:textSize="@dimen/loginTxtViewSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <EditText
+        android:id="@+id/edtSifte"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginEdtTextHeight"
+        android:layout_marginStart="@dimen/loginEdtTextMargin"
+        android:layout_marginTop="@dimen/loginEdtTextMarginTop"
+        android:layout_marginEnd="@dimen/loginEdtTextMargin"
+
+        android:background="@drawable/edit_text_login_valid"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSifre" />
+
+    <Button
+        android:id="@+id/btnDevam"
+        android:layout_width="@dimen/loginButtonWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginButtonMarginTop"
+        android:textColor="@color/white"
+        android:text="@string/devam"
+        android:background="@drawable/button_login_valid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSifte" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

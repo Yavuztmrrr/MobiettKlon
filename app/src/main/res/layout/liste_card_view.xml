@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewListe"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listCardViewHeight"
+        android:layout_margin="@dimen/listCardViewMargin"
+
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/listCardViewWidth"
+            android:layout_height="@dimen/listCardViewConsHeight">
+
+            <ImageView
+                android:id="@+id/imgListResim"
+                android:layout_width="@dimen/listCardViewConsImageWidth"
+                android:layout_height="@dimen/listCardViewConsImageHeight"
+                android:layout_marginStart="@dimen/listCardViewConsImageStart"
+                android:layout_marginEnd="@dimen/listCardViewConsImageEnd"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtBaslik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/listCardViewConsTextStart"
+                android:layout_marginBottom="@dimen/listCardViewConsTextMarginBottom"
+                android:text="Başlik"
+                android:textColor="@color/black"
+                android:textSize="@dimen/listCardViewConsTextBaslikSize"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgListResim"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtDetayIcerik"
+                android:layout_width="@dimen/listCardViewConsTextWidth"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/listCardViewConsTextStart"
+                android:layout_marginTop="@dimen/listCardViewConsTextTop"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"
+                android:text="Levent-Kagithane"
+                android:textSize="@dimen/listCardViewConsTextAltIcerikSize"
+                app:layout_constraintStart_toEndOf="@+id/imgListResim"
+                app:layout_constraintTop_toBottomOf="@+id/txtBaslik" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

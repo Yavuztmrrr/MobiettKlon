@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/acikmavi"
+    android:orientation="vertical"
+    tools:context=".ui.category.CategoryActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detayConstActivityHeight"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txtAdiYonu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/detayConstActivityTextViewMarginStartEnd"
+            android:layout_marginTop="@dimen/detayConstActivityTextViewMarginTopEnd"
+            android:textStyle="bold"
+            android:textSize="@dimen/detayConstActivityTextViewSize"
+            android:layout_marginEnd="@dimen/detayConstActivityTextViewMarginStartEnd"
+            android:layout_marginBottom="@dimen/detayConstActivityTextViewMarginTopEnd"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:text="Otobus Bilgileri" />
+
+        <Button
+            android:id="@+id/btnGeriDon"
+            android:layout_width="@dimen/detayConstActivityButtonWidth"
+            android:layout_height="@dimen/detayConstActivityButtonHeight"
+            android:layout_marginStart="@dimen/detayConstActivityButtonStart"
+            android:background="@drawable/geridon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detayConst2ActivityHeight"
+        android:layout_margin="@dimen/listActivityConsMargin"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/imgDetay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/detayConst2ActivityImageMargin"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listActivityConsHeight"
+        android:layout_marginLeft="@dimen/detayConst3ActivityMargin"
+        android:layout_marginRight="@dimen/detayConst3ActivityMargin"
+        android:layout_marginBottom="@dimen/detayConst3ActivityMargin"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txtTaraf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/detayConst3ActivityTextViewMargin"
+            android:textSize="@dimen/detayConst3ActivityTextViewSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Yon" />
+
+        <TextView
+            android:id="@+id/txtYon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/detayConst3ActivityTextViewMarginStart"
+            android:textSize="@dimen/detayConst3ActivityTextViewSize"
+            android:text="@string/yon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnDegistir"
+            android:layout_width="@dimen/detayConst3ActivityButtonWidth"
+            android:layout_height="@dimen/detayConst3ActivityButtonHeight"
+            android:layout_marginEnd="@dimen/detayConst3ActivityButtonMargin"
+            android:background="@drawable/change"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtDegistirr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/degistir"
+            android:textColor="@color/kirmizi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnDegistir"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/listActivityNestedMargin"
+        android:layout_marginRight="@dimen/listActivityNestedMargin">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvDetayListe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/detay_card_view" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

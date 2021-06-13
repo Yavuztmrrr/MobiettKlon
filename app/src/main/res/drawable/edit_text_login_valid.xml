@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:padding="@dimen/edtTxtLoginValidPadding">
+    <solid android:color="@color/white" />
+    <stroke
+        android:width="@dimen/edtTxtLoginValidBorder"
+        android:color="@color/kirmizi" />
+    <corners
+        android:bottomRightRadius="@dimen/edtTxtLoginValid"
+        android:bottomLeftRadius="@dimen/edtTxtLoginValid"
+        android:topLeftRadius="@dimen/edtTxtLoginValid"
+        android:topRightRadius="@dimen/edtTxtLoginValid"/>
+</shape>

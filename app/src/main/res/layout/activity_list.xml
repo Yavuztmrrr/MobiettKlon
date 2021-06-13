@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/acikmavi"
+    android:orientation="vertical"
+    tools:context=".ui.category.CategoryActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listActivityConsHeight"
+        android:layout_margin="@dimen/listActivityConsMargin"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/btnListe"
+            android:layout_width="@dimen/listActivityConsButton"
+            android:layout_height="@dimen/listActivityConsButton"
+            android:layout_marginTop="@dimen/listActivityConsButtonTop"
+            android:layout_marginEnd="@dimen/listActivityConsButtonEnd"
+            android:background="@drawable/grid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtDegistir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/listActivityConsTextEnd"
+            android:text="@string/degistir"
+            android:textColor="@color/kirmizi"
+            android:textSize="@dimen/listActivityConsTextSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnListe"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSirala"
+            android:layout_width="@dimen/listActivityConsButtonSecWidth"
+            android:layout_height="@dimen/listActivityConsButton"
+            android:layout_marginTop="@dimen/listActivityConsButtonSecTop"
+            android:layout_marginEnd="@dimen/listActivityConsButtonSecEnd"
+            android:background="@drawable/seciniz"
+            app:layout_constraintEnd_toStartOf="@+id/txtDegistir"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/listActivityNestedMargin"
+        android:layout_marginRight="@dimen/listActivityNestedMargin">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvListe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/liste_card_view" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnLoginValid">20dp</dimen>
+    <dimen name="btnLoginValidPadding">10dp</dimen>
+    <dimen name="edtTxtLoginValid">5dp</dimen>
+    <dimen name="edtTxtLoginValidBorder">1dp</dimen>
+    <dimen name="edtTxtLoginValidPadding">10dp</dimen>
+    <dimen name="loginViewHrHeight">60dp</dimen>
+    <dimen name="loginViewWhite">1dp</dimen>
+    <dimen name="loginMobiettWidth">300dp</dimen>
+    <dimen name="loginMobiettHeight">100dp</dimen>
+    <dimen name="loginMobiettMarginTop">116dp</dimen>
+    <dimen name="loginTxtViewMarginStart">45dp</dimen>
+    <dimen name="loginTxtViewMarginTop">212dp</dimen>
+    <dimen name="loginTxtViewMarginTopSifre">130dp</dimen>
+    <dimen name="loginTxtViewSize">18dp</dimen>
+    <dimen name="loginEdtTextHeight">40dp</dimen>
+    <dimen name="loginEdtTextMargin">50dp</dimen>
+    <dimen name="loginEdtTextMarginTop">5dp</dimen>
+    <dimen name="loginButtonWidth">250dp</dimen>
+    <dimen name="loginButtonMarginTop">24dp</dimen>
+
+
+    <dimen name="categoryMobiettWidth">280dp</dimen>
+    <dimen name="categoryMobiettHeight">100dp</dimen>
+    <dimen name="categoryMobiettMarginTop">48dp</dimen>
+    <dimen name="categoryButtonHeight">55dp</dimen>
+    <dimen name="categoryButtonMarginTop">220dp</dimen>
+    <dimen name="categoryButtonMarginEnd">18dp</dimen>
+    <dimen name="categoryCardViewWidth">140dp</dimen>
+    <dimen name="categoryCardViewHeight">90dp</dimen>
+    <dimen name="categoryCardViewBottom">10dp</dimen>
+    <dimen name="categoryCardViewMargin">3dp</dimen>
+    <dimen name="categoryCardViewRadius">10dp</dimen>
+    <dimen name="categoryConstraintLayoutWidth">140dp</dimen>
+    <dimen name="categoryConstraintLayoutHeight">90dp</dimen>
+    <dimen name="categoryConstraintLayoutLeft">10dp</dimen>
+    <dimen name="categoryConstraintLayoutRight">10dp</dimen>
+    <dimen name="categoryConstraintLayoutTop">7dp</dimen>
+
+
+
+    <dimen name="categoryImageViewWidth">70dp</dimen>
+    <dimen name="categoryImageViewHeight">90dp</dimen>
+    <dimen name="categoryImageMargin">20dp</dimen>
+    <dimen name="categoryImageMarginRight">25dp</dimen>
+
+    <dimen name="categoryTextMarginTop">35dp</dimen>
+
+    <dimen name="categorySearchHeight">45dp</dimen>
+    <dimen name="categorySearchStart">20dp</dimen>
+    <dimen name="categorySearchTop">214dp</dimen>
+    <dimen name="categorySearchEnd">100dp</dimen>
+    <dimen name="categorySearchMarginEnd">20dp</dimen>
+    <dimen name="categorySearchButton">210dp</dimen>
+    <dimen name="categoryNestedMarginLeft">45dp</dimen>
+    <dimen name="categoryNestedMarginRight">45dp</dimen>
+    <dimen name="categoryNestedMarginTop">10dp</dimen>
+
+
+
+    <dimen name="detailTextViewMarginTop">15dp</dimen>
+    <dimen name="detailTextViewMarginEnd">5dp</dimen>
+
+
+    <dimen name="listCardViewWidth">220dp</dimen>
+    <dimen name="listCardViewHeight">80dp</dimen>
+    <dimen name="listCardViewMargin">3dp</dimen>
+    <dimen name="listCardViewConsHeight">80dp</dimen>
+    <dimen name="listCardViewConsImageWidth">40dp</dimen>
+    <dimen name="listCardViewConsImageHeight">35dp</dimen>
+    <dimen name="listCardViewConsImageStart">10dp</dimen>
+    <dimen name="listCardViewConsImageTop">10dp</dimen>
+    <dimen name="listCardViewConsImageEnd">5dp</dimen>
+    <dimen name="listCardViewConsTextStart">10dp</dimen>
+    <dimen name="listCardViewConsTextMarginBottom">20dp</dimen>
+    <dimen name="listCardViewConsTextWidth">105dp</dimen>
+    <dimen name="listCardViewConsTextTop">2dp</dimen>
+    <dimen name="listCardViewConsTextBaslikSize">18sp</dimen>
+    <dimen name="listCardViewConsTextAltIcerikSize">11sp</dimen>
+
+    <dimen name="listActivityConsHeight">50dp</dimen>
+    <dimen name="listActivityConsMargin">8dp</dimen>
+    <dimen name="listActivityConsButton">30dp</dimen>
+    <dimen name="listActivityConsButtonSecWidth">200dp</dimen>
+    <dimen name="listActivityConsButtonTop">10dp</dimen>
+    <dimen name="listActivityConsButtonEnd">35dp</dimen>
+    <dimen name="listActivityConsTextEnd">2dp</dimen>
+    <dimen name="listActivityConsTextSize">12sp</dimen>
+    <dimen name="listActivityConsButtonSecTop">8dp</dimen>
+    <dimen name="listActivityConsButtonSecEnd">50dp</dimen>
+    <dimen name="listActivityNestedMargin">5dp</dimen>
+
+
+    <dimen name="detayCardViewHeight">35dp</dimen>
+    <dimen name="detayCardViewWidth">340dp</dimen>
+    <dimen name="detayCardViewMargin">5dp</dimen>
+    <dimen name="detayConstTextViewMarginTop">270dp</dimen>
+    <dimen name="detayConstTextViewMarginBottom">4dp</dimen>
+    <dimen name="detayConstTextViewMarginSize">14sp</dimen>
+
+    <dimen name="detayConstImageHeight">18dp</dimen>
+    <dimen name="detayConstImageWidth">17dp</dimen>
+    <dimen name="detayConstImageWidthMargin">9dp</dimen>
+    <dimen name="detayConstImageWidthMarginTop">25dp</dimen>
+
+
+
+    <dimen name="detayConstActivityHeight">50dp</dimen>
+
+    <dimen name="detayConstActivityButtonHeight">14dp</dimen>
+    <dimen name="detayConstActivityButtonWidth">15dp</dimen>
+    <dimen name="detayConstActivityButtonStart">10dp</dimen>
+
+    <dimen name="detayConstActivityTextViewMarginTopEnd">15dp</dimen>
+    <dimen name="detayConstActivityTextViewMarginStartEnd">150dp</dimen>
+    <dimen name="detayConstActivityTextViewSize">18dp</dimen>
+
+
+    <dimen name="detayConst2ActivityHeight">230dp</dimen>
+    <dimen name="detayConst2ActivityImageMargin">10dp</dimen>
+
+    <dimen name="detayConst3ActivityMargin">9dp</dimen>
+
+    <dimen name="detayConst3ActivityTextViewMargin">45dp</dimen>
+    <dimen name="detayConst3ActivityTextViewMarginStart">10dp</dimen>
+    <dimen name="detayConst3ActivityTextViewSize">18sp</dimen>
+
+    <dimen name="detayConst3ActivityButtonWidth">20dp</dimen>
+    <dimen name="detayConst3ActivityButtonHeight">23dp</dimen>
+    <dimen name="detayConst3ActivityButtonMargin">20dp</dimen>
+
+    <dimen name="progressDialogTasarimThickness">4dp</dimen>
+    <dimen name="progressDialogTasarimWidth">100dp</dimen>
+    <dimen name="progressDialogTasarimHeight">100dp</dimen>
+    <dimen name="progressDialogTasarimRadius">20dp</dimen>
+
+    <dimen name="progressDialogWidth">100dp</dimen>
+    <dimen name="progressDialogHeight">100dp</dimen>
+    <dimen name="progressDialogMargin">4dp</dimen>
+    <dimen name="progressDialogTextHeight">21dp</dimen>
+    <dimen name="progressDialogTextMarginStart">50dp</dimen>
+    <dimen name="progressDialogTextMarginTop">36dp</dimen>
+    <dimen name="progressDialogTextSize">19sp</dimen>
+
+
+
+
+
+</resources>

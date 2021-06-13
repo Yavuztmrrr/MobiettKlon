@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/categoryCardViewMargin">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/OtoCardView"
+        android:layout_width="@dimen/categoryCardViewWidth"
+        android:layout_height="@dimen/categoryCardViewHeight"
+        android:layout_margin="@dimen/categoryCardViewMargin"
+        android:layout_marginBottom="@dimen/categoryCardViewBottom"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/categoryCardViewRadius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/categoryConstraintLayoutWidth"
+            android:layout_height="@dimen/categoryConstraintLayoutHeight">
+            <ImageView
+                android:id="@+id/imgCategoryResim"
+                android:layout_width="@dimen/categoryImageViewWidth"
+                android:layout_height="@dimen/categoryImageViewHeight"
+                android:layout_marginRight="@dimen/categoryImageMarginRight"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@color/black" />
+
+            <TextView
+                android:id="@+id/txtCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/categoryTextMarginTop"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imgCategoryResim"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Durak: 27" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
