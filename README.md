@@ -1,9 +1,17 @@
-# MobiettKlon
+# MobiettKlon App
 
+<p align="left">
+  <img src="https://raw.githubusercontent.com/Yavuztmrrr/MobiettKlon/main/images/logo.png" height="200" />
+</p>
 
  İett'nin Mobil uygulaması olan Mobiett'nin klon uygulaması yapılması amaçlanmıştır.
 
 
+## Clean Simple Architecture
+<p align="left">
+  <img src="https://raw.githubusercontent.com/Yavuztmrrr/MobiettKlon/main/images/mvvm1png.png" height="400" />
+  <img src="https://github.com/Yavuztmrrr/MobiettKlon/blob/main/images/mvvm2.png" height="400" />
+</p>
 
 
 
